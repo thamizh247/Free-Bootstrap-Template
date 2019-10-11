@@ -1,0 +1,119 @@
+body {
+  min-height: 700px;
+  padding-top: 70px;
+}
+
+
+	.navbar{
+		min-height:70px;
+	}
+	.ipl-rate-basis .col-sm-1, .ipl-rate-basis .col-sm-2{
+	padding-left:0;
+	padding-right:10px;
+	
+	}
+	.drop-shadow, .ipl-rate-basis .panel{
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+	}
+	. 	line-shadow{
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,.05);
+	}
+	.ipl-rate-basis .panel{
+		text-align:center;
+		
+	}
+	.ipl-rate-basis .panel-heading{
+		padding:10px;
+		background-color:#0039a6;
+		color:#fff;
+	}
+	/*slider*/
+	.slider-selection{
+		background:#00b140;
+	}
+	/*.slider-handle{
+		background:#822b2f;
+	}
+	.slider-track-high, .slider-track-low{
+		background:#0039a6;
+	}*/
+	.slider.slider-horizontal{
+		width:100%;
+	}
+	/*decoration*/
+	.ipl-blue-bg{ background-color:#0039a6 !important;}
+	.ipl-blue-bdr{border-color:#0039a6 !important;}
+	.ipl-blue-bg-bdr{ background-color:#0039a6;border-color:#0039a6 !important;}
+	.ipl-blue-txt{color:#0039a6 !important;}
+	
+	.ipl-green-bg{background-color:#00b140 !important;}
+	.ipl-green-bdr{border-color:#00b140 !important;}
+	.ipl-green-bg-bdr{ background-color:#00b140;border-color:#00b140 !important;}
+	.ipl-green-txt{color:#00b140 !important;}
+	
+	.ipl-red-bg{background-color:#822b2f !important;}
+	.ipl-red-bdr{border-color:#822b2f !important;}
+	.ipl-red-bg-bdr{background-color:#822b2f; border-color:#822b2f !important;}
+	.ipl-red-txt{color:#822b2f !important;}
+	
+	.fnt-wt-700{font-weight:700;}
+	.fnt-wt-400{font-weight:400;}
+	
+	.ipl-range-slider-block{
+		margin-top:20px;
+	}
+	.rs-content-block{
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+		height:420px;
+		padding:20px;
+	}
+	.range-ruler{
+		height:70px;
+		margin:20px 0;
+		padding:0;
+	}
+	.range-val{
+		float:right;
+		font-weight:700;
+	}
+	.rs-content-block .well{
+		border-radius:0;
+		text-align:center;
+		height:92px;
+		background:#ffffff;
+		border:0;
+		font-size:12px;
+		box-shadow: inset 1px 1px 1px rgba(0,0,0,.05);
+	}
+	.rs-content-block .well strong{
+		font-size:24px;
+		color:#822b2f;
+	}
+	.bdr-top-green{
+		border-top:6px solid #00b140;
+	}
+	.m-0{
+		margin:0;
+	}
+	.mlt-10{
+		margin-left:10px;
+	}
+	.mt-10{
+		margin-top:10px;
+	}
+	.mt-20{
+		margin-top:20px;
+	}
+	
+	.p-0{
+		padding:0;
+	}
+	.bdr-0{
+		border:0;
+	}
+	label.title{
+		font-weight:300;
+		margin-bottom
+	}
+	.ht-400{height:400px;}
+	

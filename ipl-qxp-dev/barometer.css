@@ -1,0 +1,198 @@
+#barometer .container {
+   position:relative;
+  width:100%;
+}
+#barometer_form{
+	display:none;
+}
+
+.first_ring {
+  position:absolute;
+  width: 0;
+  height: 0;
+  background-color:#666;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.second_ring {
+  position:absolute;
+  width: 0;
+  height: 0;
+  top:5px;
+  left:5px;
+  background-color:#CCC;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.third_ring {
+  position:absolute;
+  width: 155px;
+  height: 155px;
+  top:5px;
+  left:5px;
+  background-color:#FFF;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+
+.pie {
+  position:relative;
+  width: 140px;
+  height: 152px;
+  transform: translate(15px,15px) rotate(-45deg);
+}
+
+.pie_segment {
+  position:absolute;
+  height: 75px;
+  width: 75px;
+}
+
+.pie_segment.red {
+  background-color:red;
+  border-radius: 100% 0px 0px 0px;
+}
+
+.pie_segment.orange{
+  background-color:orange;
+  left: 75px;
+  border-radius: 0px 100% 0px 0px;
+}
+
+.pie_segment.green {
+  background-color:green;
+  left: 75px;
+  top: 75px;
+  border-radius: 0px 0px 100% 0px;
+}
+
+.pie_segment.white {
+  background-color:white;
+  left:0px;
+  top: 75px;
+  border-radius: 0px 0px 0px 100%;
+}
+
+.second_layer {
+  position:absolute;
+  index:10;
+  top: 28px;
+  left: 36px;
+  height: 110px;
+  width: 110px;
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.third_layer {
+  position:absolute;
+  index:10;
+  top: 48px;
+  left: 48px;
+  height: 70px;
+  width: 70px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+
+.middle_point {
+  position:absolute;
+  index:16;
+  top: 75px;
+  left: 75px;
+  height: 15px;
+  width: 15px;
+  background-color: #FFFFFF;
+  border: solid 10px #CCC;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.arrow {
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 60px;
+  height: 10px;
+  position:absolute;
+  top: 78px;
+  left: 26px;
+  transform-origin: right;
+  transform: rotate(0deg);
+}
+
+.arrowtop {
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  border-bottom: 5px solid #666;
+  border-left: 60px solid transparent;
+}
+
+.arrowbottom {
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #666;
+  border-left: 60px solid transparent;
+}
+
+#barometer_form{
+  margin-top:20px;
+}
+
+#barometer_form label {
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: bold;
+  padding-right:20px;
+}
+
+#barometer_form  input {
+   font: inherit;
+   color: #000;
+   box-shadow: none;
+   border: 1px solid #ccc;
+   border-radius: 0.25rem;
+   margin-bottom: 15px;
+}
+
+
+
+.GaugeMeter{
+	Position: Relative;
+	Text-Align: Center;
+	Overflow: Hidden;
+	Cursor: Default;
+	margin:0 20px;
+}
+
+.GaugeMeter SPAN,
+.GaugeMeter B{
+	Margin:	0 23%;
+	Width: 54%;
+	Position: Absolute;
+	Text-Align: Center;
+	Display: Inline-Block;
+	Color: RGBa(0,0,0,.8);
+	Font-Weight: 100;
+	Font-Family: "Open Sans", Arial;
+	Overflow: Hidden;
+	White-Space: NoWrap;
+	Text-Overflow: Ellipsis;
+}
+
+
+.GaugeMeter S,
+.GaugeMeter U{
+	Text-Decoration:None;
+	Font-Size: .60em;
+	Font-Weight: 200;
+	Opacity: .6;
+}
