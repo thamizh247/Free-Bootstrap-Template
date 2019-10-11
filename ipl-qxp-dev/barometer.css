@@ -1,6 +1,7 @@
 #barometer .container {
    position:relative;
   width:100%;
+  left:13%;
 }
 #barometer_form{
 	display:none;
@@ -110,7 +111,7 @@
   height: 15px;
   width: 15px;
   background-color: #FFFFFF;
-  border: solid 10px #CCC;
+  border: solid 10px #666666;
   border-radius: 50%;
   box-sizing: border-box;
 }

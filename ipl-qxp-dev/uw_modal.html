@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./images/ipl-fav-ico.png">
+    <title>Ipl page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
+    <link rel="stylesheet" type="text/css" href="barometer.css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link href="ipl-pages.css" rel="stylesheet">
+    <!------ Include the above in your HEAD tag ---------->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="./images/cognizant-logo.png" height="40px"></a>
+            </div>
+            <div class="col-md-8 text-center pull-right">
+                <a class="navbar-brand" href="#"><img src="./images/ipl-logo.png"></a>
+            </div>
+        </div>
+    </nav>
+
+<div class="container">
+  <h2></h2>
+  <!-- Trigger the modal with a button -->
+  <a href="#" data-toggle="modal" data-target="#myModal">Click to open modal</a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h3 class="ipl-red-txt fnt-wt-700">LIFE/BTRM Sch A Graded(10%) <a class="label label-success btn-details pull-right" href="#">Details</a></h3>
+        </div>
+        <div class="modal-body">
+          
+    <div class="container">
+        <div class="row ipl-rate-basis">
+            <div class="panel panel-primary ipl-blue-bdr">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Rate Basis</h3>
+                </div>
+                <div class="panel-body">
+                    per $1000 employee
+                </div>
+            </div>
+            <div class="panel panel-primary ipl-blue-bdr">
+                <div class="panel-heading">
+                    <h3 class="panel-title"># of lives</h3>
+                </div>
+                <div class="panel-body">
+                    99
+                </div>
+            </div>
+
+            <div class="panel panel-primary ipl-blue-bdr">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Adjusted Manual</h3>
+                </div>
+                <div class="panel-body">
+                    <input type="text" class="form-control" placeholder="1.987">
+                </div>
+            </div>
+
+            <div class="panel panel-primary ipl-blue-bdr ">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Formula</h3>
+                </div>
+                <div class="panel-body">
+                    1.987
+                </div>
+            </div>
+
+            <div class="panel panel-primary ipl-blue-bdr">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Needed</h3>
+                </div>
+                <div class="panel-body">
+                    1.987
+                </div>
+            </div>
+
+            <div class="panel panel-primary ipl-blue-bdr">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Proposed</h3>
+                </div>
+                <div class="panel-body">
+                    1.987
+                </div>
+            </div>
+
+            <div class="panel panel-primary ipl-blue-bdr">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Exposure</h3>
+                </div>
+                <div class="panel-body">
+                    1,230,000
+                </div>
+            </div>
+
+            <div class="panel panel-primary ipl-blue-bdr">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Proposed Premium</h3>
+                </div>
+                <div class="panel-body">
+                    2,444.01
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row ipl-range-slider-wrapper">
+
+            <div class="col-md-7 rs-content-block bdr-top-blue">
+                <div class="col-md-6">
+                    <div class="col-md-12 mt-20 range-ruler">
+                        <label for="customRange3">Benefit Amount</label>
+						
+                        <div class="row m-0">
+						<label for="customRange3" class="pull-right ipl-green-txt fnt-wt-700"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> $50000</label>
+						
+                        </div>
+                        <input id="slider1" type="text" data-slider-min="1000" data-slider-max="100000" data-slider-step="100" data-slider-value="50000" />
+                        <small for="customRange3" class="pull-left">$1000</small><small for="customRange3" class="pull-right">$100000</small>
+                    </div>
+                    <div class="col-md-12 mt-20 range-ruler">
+                        <label for="customRange3">Living Benefit Option</label>
+                        <div class="row m-0">
+                            <label for="customRange3" class="pull-right ipl-green-txt fnt-wt-700"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 24 M</label>
+                        </div>
+                        <input id="slider2" type="text" data-slider-min="1" data-slider-max="100" data-slider-step="5" data-slider-value="24" />
+                        <small for="customRange3" class="pull-left">1 M</small><small for="customRange3" class="pull-right">60 M</small>
+                    </div>
+                    <div class="col-md-12 mt-20 range-ruler">
+                        <label for="customRange3">Benefit Reduction schedule</label>
+						<div class="row m-0">
+                            <label for="customRange3" class="pull-right ipl-green-txt fnt-wt-700"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 50%</label>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-4">
+							<small for="customRange3" class="pull-left">From</small>
+                                <select class="form-control ">
+                                    <option>21</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+							<small for="customRange3" class="pull-left">To</small>
+                                <select class="form-control">
+                                    <option>60</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control mt-15" placeholder="value" value="25%">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-5 pull-right text-center bdr-l">
+                    <label>Conversion Ratio</label>
+                    <div class="row">
+                        <div class="GaugeMeter m-center" id="PreviewGaugeMeter_2" data-percent="25" data-append="%" data-size="170" data-theme="blue" data-back="RGBa(0,0,0,.1)" data-animate_gauge_colors=true data-animate_text_colors=true data-width="15" data-label="" data-style="Arch" data-label_color="#82a22f"></div>
+                    </div>
+                    <label>Risk Prediction</label>
+                    <div class="row">
+                        <div id="barometer"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 w-40p rs-content-block ml-10 p-0 panel panel-primary bdr-0 bdr-radius-0">
+                <div class="blk-hdr ipl-blue-bg">
+                    <h3 class="panel-title fnt-wt-700 text-center">QUOTE EXPRESS PRESCRIPTION</h3>
+                </div>
+                <div class="col-md-6 well table-bordered m-0">
+                    <strong><span class="glyphicon glyphicon-ok ipl-green-txt" aria-hidden="true"></span></strong>
+                    <br/>can insure
+                </div>
+                <div class="col-md-6 well m-0">
+                    <strong>$80K - 90K</strong>
+                    <br/> Prescribed Renewal Premium
+                </div>
+
+                <div class="col-md-6 well m-0">
+                    <strong>85%</strong>
+                    <br/>Confidence in 
+                </div>
+                <div class="col-md-6 well table-bordered m-0">
+                    <strong>5%</strong>
+                    <br/>Loss Ratio
+                </div>
+
+                <div class="col-md-12 text-center line-shadow">
+                    <button type="button" class="btn btn-lg btn-success ipl-green-bg-bdr fnt-wt-700 mt-20">Approve Prescribed Premium</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="barometer.js"></script>
+    <script src="GaugeMeter.js"></script>
+    <script>
+        $(document).ready(function() {
+            //GaugeMeter
+            $(".GaugeMeter").gaugeMeter({});
+
+            $('#barometer').barometer({
+                placeholder: "degrees: ",
+                startvalue: "80"
+            });
+
+            // Basic Slider
+            var slider = new Slider("#slider1", {
+                tooltip: 'always'
+            });
+
+            // Vertical Slider
+            var slider = new Slider("#slider2", {
+                tooltip: 'always'
+            });
+        });
+    </script>
+</body>
+
+</html>
